@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T11:52:07.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="aKGa66osFfBpfRVyyRtO" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T12:48:37.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="SfFgFiVLN2qv7CNY98JH" version="20.4.0" type="github">
   <diagram id="zloy9zrLZ1wWkiFGT145" name="Page-1">
-    <mxGraphModel dx="1261" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-1" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1" connectable="0">
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-1" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="70" y="110" width="1004.51" height="471.2244897959184" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
@@ -46,8 +46,8 @@
             <mxPoint x="261.33593495934963" y="153.46938775510202" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-11" value="Commit Code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
-          <mxGeometry x="147.00146341463415" y="115.10204081632652" width="100" height="30" as="geometry" />
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-11" value="Commit Code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
+          <mxGeometry x="88.85146341463414" y="137.27204081632652" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-12" value="GitLab" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="188.85604674796747" y="123.49489795918366" width="202.12701219512198" height="57.55102040816326" as="geometry" />
@@ -70,14 +70,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-14" value="Run build Ci" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-14" value="Run build Ci&lt;br&gt;Testing code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="396.08727642276426" y="123.49489795918366" width="98.0009756097561" height="57.55102040816326" as="geometry" />
         </mxCell>
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-16" value="On Every Commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
-          <mxGeometry x="310.3364227642277" y="191.83673469387756" width="120" height="30" as="geometry" />
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-16" value="On Every Commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
+          <mxGeometry x="229.91642276422766" y="257.75673469387755" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-17" value="On every Commit&lt;br&gt;to Master Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
-          <mxGeometry x="477.7547560975611" y="258.9795918367347" width="120" height="40" as="geometry" />
+          <mxGeometry x="465.7347560975611" y="247.7595918367347" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-18" value="Build Docker images" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="571.6723577235773" y="123.49489795918366" width="98.0009756097561" height="57.55102040816326" as="geometry" />
