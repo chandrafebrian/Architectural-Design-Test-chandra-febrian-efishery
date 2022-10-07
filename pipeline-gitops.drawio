@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T12:48:37.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="SfFgFiVLN2qv7CNY98JH" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T12:51:29.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="r6fSMyY_YEVGY0R5mjtm" version="20.4.0" type="github">
   <diagram id="zloy9zrLZ1wWkiFGT145" name="Page-1">
-    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-1" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-1" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;labelBackgroundColor=default;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="70" y="110" width="1004.51" height="471.2244897959184" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
@@ -102,7 +102,7 @@
         <mxCell id="tNd2uU0bsCmuSxHjag_w-22" value="env: Stagging" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="841.1750406504066" y="115.10204081632652" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-23" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-180;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-23" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-180;fillColor=#fad7ac;strokeColor=#b46504;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="686.0068292682927" y="244.59183673469389" width="308.29473577235774" height="28.77551020408163" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-24" value="Deploy to Production" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
@@ -111,8 +111,8 @@
         <mxCell id="tNd2uU0bsCmuSxHjag_w-25" value="env: Production" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="841.1784146341463" y="397.4534693877551" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-26" value="Require Manual Interaction to make sure&lt;br&gt;everything running well" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
-          <mxGeometry x="808.5080487804879" y="273.3673469387755" width="240" height="40" as="geometry" />
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-26" value="Require Manual Interaction to make sure&lt;br&gt;everything running well" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
+          <mxGeometry x="789.9980487804879" y="273.3673469387755" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-27" value="On every Commit&lt;br&gt;to Master Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="677.840081300813" y="201.4285714285714" width="120" height="40" as="geometry" />
@@ -123,7 +123,7 @@
         <mxCell id="tNd2uU0bsCmuSxHjag_w-29" value="production-dev.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="727.173943089431" y="441.2244897959184" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tNd2uU0bsCmuSxHjag_w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=default;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
+        <mxCell id="tNd2uU0bsCmuSxHjag_w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#fad7ac;strokeColor=#b46504;" parent="tNd2uU0bsCmuSxHjag_w-1" vertex="1">
           <mxGeometry x="424.6708943089431" y="123.49489795918366" width="202.12701219512198" height="28.77551020408163" as="geometry" />
         </mxCell>
         <mxCell id="tNd2uU0bsCmuSxHjag_w-30" value="&lt;div style=&quot;text-align: start;&quot; title=&quot;Page 2&quot; class=&quot;page&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot; class=&quot;section&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;ol&gt;&lt;li style=&quot;font-size: 12pt; font-family: Verdana;&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;the Pipeline GitOps for the deployment web application&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
